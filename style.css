@@ -1,0 +1,130 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	background-color: #EAEAEA;
+}
+
+#main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	max-width: 1000px;
+	background-color: #333;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+#main > .main-inner {
+	position: relative;
+	width: 100%;
+	padding-top: 100%;
+}
+
+#main .block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 33.3333%;
+	height: 33.3333%;
+	z-index: 1;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transition: transform 0.25s ease-out;
+	-o-transition: transform 0.25s ease-out;
+	-webkit-transition: transform 0.25s ease-out;
+}
+#main .block.blank {
+	z-index: 0;
+}
+#main .block.selectable {
+	cursor: pointer;
+}
+#main .block.selectable:hover {
+	filter: brightness(0.75);
+}
+#main .block.pos-1 {
+	position: absolute;
+	transform: translate(-150%, -150%);
+	-o-transform: translate(-150%, -150%);
+	-ms-transform: translate(-150%, -150%);
+	-moz-transform: translate(-150%, -150%);
+	-webkit-transform: translate(-150%, -150%);
+}
+#main .block.pos-2 {
+	position: absolute;
+	transform: translate(-50%, -150%);
+	-o-transform: translate(-50%, -150%);
+	-ms-transform: translate(-50%, -150%);
+	-moz-transform: translate(-50%, -150%);
+	-webkit-transform: translate(-50%, -150%);
+}
+#main .block.pos-3 {
+	position: absolute;
+	transform: translate(50%, -150%);
+	-o-transform: translate(50%, -150%);
+	-ms-transform: translate(50%, -150%);
+	-moz-transform: translate(50%, -150%);
+	-webkit-transform: translate(50%, -150%);
+}
+#main .block.pos-4 {
+	position: absolute;
+	transform: translate(-150%, -50%);
+	-o-transform: translate(-150%, -50%);
+	-ms-transform: translate(-150%, -50%);
+	-moz-transform: translate(-150%, -50%);
+	-webkit-transform: translate(-150%, -50%);
+}
+#main .block.pos-5 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+#main .block.pos-6 {
+	position: absolute;
+	transform: translate(50%, -50%);
+	-o-transform: translate(50%, -50%);
+	-ms-transform: translate(50%, -50%);
+	-moz-transform: translate(50%, -50%);
+	-webkit-transform: translate(50%, -50%);
+}
+#main .block.pos-7 {
+	position: absolute;
+	transform: translate(-150%, 50%);
+	-o-transform: translate(-150%, 50%);
+	-ms-transform: translate(-150%, 50%);
+	-moz-transform: translate(-150%, 50%);
+	-webkit-transform: translate(-150%, 50%);
+}
+#main .block.pos-8 {
+	position: absolute;
+	transform: translate(-50%, 50%);
+	-o-transform: translate(-50%, 50%);
+	-ms-transform: translate(-50%, 50%);
+	-moz-transform: translate(-50%, 50%);
+	-webkit-transform: translate(-50%, 50%);
+}
+#main .block.pos-9 {
+	position: absolute;
+	transform: translate(50%, 50%);
+	-o-transform: translate(50%, 50%);
+	-ms-transform: translate(50%, 50%);
+	-moz-transform: translate(50%, 50%);
+	-webkit-transform: translate(50%, 50%);
+}
+
+#main .block > img {
+	width: 100%;
+	height: 100%;
+}
