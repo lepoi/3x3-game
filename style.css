@@ -52,7 +52,6 @@ html, body {
 	filter: brightness(0.75);
 }
 #main .block.pos-1 {
-	position: absolute;
 	transform: translate(-150%, -150%);
 	-o-transform: translate(-150%, -150%);
 	-ms-transform: translate(-150%, -150%);
@@ -60,7 +59,6 @@ html, body {
 	-webkit-transform: translate(-150%, -150%);
 }
 #main .block.pos-2 {
-	position: absolute;
 	transform: translate(-50%, -150%);
 	-o-transform: translate(-50%, -150%);
 	-ms-transform: translate(-50%, -150%);
@@ -68,7 +66,6 @@ html, body {
 	-webkit-transform: translate(-50%, -150%);
 }
 #main .block.pos-3 {
-	position: absolute;
 	transform: translate(50%, -150%);
 	-o-transform: translate(50%, -150%);
 	-ms-transform: translate(50%, -150%);
@@ -76,7 +73,6 @@ html, body {
 	-webkit-transform: translate(50%, -150%);
 }
 #main .block.pos-4 {
-	position: absolute;
 	transform: translate(-150%, -50%);
 	-o-transform: translate(-150%, -50%);
 	-ms-transform: translate(-150%, -50%);
@@ -84,7 +80,6 @@ html, body {
 	-webkit-transform: translate(-150%, -50%);
 }
 #main .block.pos-5 {
-	position: absolute;
 	transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -92,7 +87,6 @@ html, body {
 	-webkit-transform: translate(-50%, -50%);
 }
 #main .block.pos-6 {
-	position: absolute;
 	transform: translate(50%, -50%);
 	-o-transform: translate(50%, -50%);
 	-ms-transform: translate(50%, -50%);
@@ -100,7 +94,6 @@ html, body {
 	-webkit-transform: translate(50%, -50%);
 }
 #main .block.pos-7 {
-	position: absolute;
 	transform: translate(-150%, 50%);
 	-o-transform: translate(-150%, 50%);
 	-ms-transform: translate(-150%, 50%);
@@ -108,7 +101,6 @@ html, body {
 	-webkit-transform: translate(-150%, 50%);
 }
 #main .block.pos-8 {
-	position: absolute;
 	transform: translate(-50%, 50%);
 	-o-transform: translate(-50%, 50%);
 	-ms-transform: translate(-50%, 50%);
@@ -116,7 +108,6 @@ html, body {
 	-webkit-transform: translate(-50%, 50%);
 }
 #main .block.pos-9 {
-	position: absolute;
 	transform: translate(50%, 50%);
 	-o-transform: translate(50%, 50%);
 	-ms-transform: translate(50%, 50%);
